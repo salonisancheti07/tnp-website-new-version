@@ -45,11 +45,11 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port} http://localhost:${port}`);
 
   // Self-ping every 10 seconds to prevent the server from sleeping
-  setInterval(() => {
-    https.get(`https://tnp-website-new-version-5i79.onrender.com`, (res) => {
-      console.log(`Pinged server - Status Code: ${res.statusCode}`);
-    }).on('error', (err) => {
-      console.error(`Error pinging server: ${err.message}`);
-    });
-  }, 1000*6*10); // 10 seconds
+  // setInterval(() => {
+  //   https.get(`https://tnp-website-new-version-5i79.onrender.com`, (res) => {
+  //     console.log(`Pinged server - Status Code: ${res.statusCode}`);
+  //   }).on('error', (err) => {
+  //     console.error(`Error pinging server: ${err.message}`);
+  //   });
+  // }, 1000*6*10); // 10 seconds
 });

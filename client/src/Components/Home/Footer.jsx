@@ -59,7 +59,7 @@ export default function Footer() {
                 <FontAwesomeIcon color="#ff0000" icon={faYoutube} />
               </a>
               <a
-                href="https://www.linkedin.com/in/sggs-tnpcell/"
+                href="https://www.linkedin.com/company/placementcell-sggsiet/"
                 target="_blank"
                 rel="noreferrer"
               >

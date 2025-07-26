@@ -83,7 +83,7 @@ const Hero = () => {
                 <h3 className="m-2 md:text-xl lg:text-2xl sm:text-2xl">See Flyer & Brochures Of Our Institute</h3>
               </div>
               <div className="flex flex-col items-center justify-start p-2 m-2">
-                <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1-j-niIi5FWiNyGn1x3yH_DHg71bsEg1r/view?usp=sharing' className="w-full font-bold"><p className="p-2 mt-1 mb-1 text-xl text-center text-black bg-orange-300 border-2 rounded-xl hover:cursor-pointer md:text-base lg:text-xl">Placement Brochure</p></a>
+                <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1LmfWQCOVu67odXxBb1ywpaJf2Enf0faI/view?usp=drive_link' className="w-full font-bold"><p className="p-2 mt-1 mb-1 text-xl text-center text-black bg-orange-300 border-2 rounded-xl hover:cursor-pointer md:text-base lg:text-xl">Placement Brochure</p></a>
                 <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1syO4OcmsHiDNOwZxo-6lQAiG18bzIkRd/view?usp=sharing' className="w-full font-bold"><p className="p-2 mt-1 mb-1 text-xl text-center text-black bg-orange-300 border-2 rounded-xl hover:cursor-pointer md:text-base lg:text-xl">SGGSIE&T TPO Flyer</p></a>
               </div>
             </div>
@@ -101,14 +101,14 @@ const Hero = () => {
               <h3 className="m-1 text-sm sm:text-[12px]">Summary(Last Year)</h3>
               <img src={Summary} alt='summary' className="w-[20%]" />
               <ul className="p-1 mt-2 space-y-2 list-disc">
-                <li className="text-xs">Total Offers: 480+</li>
-                <li className="text-xs">Top Package: 60 LPA</li>
-                <li className="text-xs">Average: 6.2 LPA</li>
+                <li className="text-xs">Total Offers: 440</li>
+                <li className="text-xs">Top Package: 27 LPA</li>
+                <li className="text-xs">Average: 5 LPA</li>
               </ul>
             </div>
 
             <div className="flex flex-col items-center justify-center w-full h-full m-2 ">
-              <h3 className="m-1 text-sm sm:text-[12px]">Placement Stats 23-24</h3>
+              <h3 className="m-1 text-sm sm:text-[12px]">Placement Status 24-25</h3>
               <img src={Stats} alt='stats' className="w-[20%]" />
               {yearData.filter((item) => { return item["Year"] === '2023-24' }).map((item) => {
                 // console.log(item.PackageRange)
